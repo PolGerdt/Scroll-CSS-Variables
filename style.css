@@ -1,0 +1,35 @@
+#s1 {
+  --tx: 0;
+  transform: translateX(var(--tx));
+}
+#s2 {
+  --sc: 1;
+  transform: scale(var(--sc));
+}
+#s3 {
+  --ro: 0;
+  --tx: 0;
+  transform: translateX(var(--tx)) rotate(var(--ro));
+}
+
+.bloc {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.pk {
+  background-color: #62e4f5;
+}
+.dp {
+  background-color: #52de88;
+}
+.kb {
+  background-color: #ca95f7;
+}
+img {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: auto;
+  height: 300px;
+}
